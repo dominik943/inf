@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Osobný Profil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: linear-gradient(to bottom, #e0f2f1, #b3e5fc);
+            line-height: 1.6;
+            color: #191970;
+        }
+
+        header {
+            background-color: #0d47a1;
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+            
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #bbdefb;
+            
+        }
+
+        nav {
+            background-color: #1565c0;
+            padding: 0.5rem 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #e3f2fd;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 0.2rem;
+            border-radius: 0.2rem;
+        }
+
+        nav a:hover {
+            background-color: #1e88e5;
+            color: white;
+            text-decoration: underline;
+        }
+
+        #obsah {
+            width: 80%;
+            margin: 1rem auto;
+            background-color: #f8f8ff;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        section h2 {
+            font-size: 2.2rem;
+            color: #1565c0;
+            border-bottom: 0.2rem solid #1565c0;
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 0.5rem;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 0.5rem;
+            text-align: left;
+        }
+
+        th {
+            background-color: #555;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        ul,
+        ol {
+            margin-top: 0.5rem;
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        a {
+            color: #0d47a1;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #1565c0;
+            text-decoration: underline;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+            box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #1565c0;
+            color: white;
+            margin-top: 2rem;
+            box-shadow: 0 -0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+        }
+
+        .info-box {
+            background-color: #e0f7fa;
+            padding: 0.8rem;
+            margin-bottom: 0.8rem;
+            border-radius: 0.25rem;
+            border: 1px solid #b2ebf2;
+            display: inline-block;
+            width: 22%;
+            vertical-align: top;
+            margin-right: 0.8rem;
+            text-align: center;
+        }
+
+        .info-box p {
+            margin: 0;
+        }
+
+        .kontakt-udaj {
+            font-weight: bold;
+            color: #1a237e;
+
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Osobný Profil</h1>
+        <img src="Avatar.png" alt="Avatar">
+        <nav>
+            <a href="#zakladne-info" title="Prejsť na základné informácie">Základné informácie</a>
+            <a href="#vzdelanie" title="Prejsť na vzdelanie">Vzdelanie</a>
+            <a href="#jazyky" title="Prejsť na jazyky">Jazykové znalosti</a>
+            <a href="#skusenosti" title="Prejsť na skúsenosti">Skúsenosti</a>
+            <a href="#zaujmy" title="Prejsť na záujmy">Zaujmy</a>
+            <a href="#kontakt" title="Prejsť na kontakt">Kontakt</a>
+        </nav>
+    </header>
+
+    <div id="obsah">
+
+        <section id="zakladne-info">
+            <h2>Základné informácie</h2>
+            <div class="info-box">
+                <p>Meno:</p>
+                <p>Dominik András</p>
+            </div>
+            <div class="info-box">
+                <p>Vek:</p>
+                <p>18</p>
+            </div>
+            <div class="info-box">
+                <p>Dátum narodenia:</p>
+                <p>14. 8. 2006</p>
+            </div>
+            <div class="info-box">
+                <p>Mesto:<p>
+                <p>Košice</p>
+            </div>
+        </section>
+
+        <section id="vzdelanie">
+            <h2>Vzdelanie</h2>
+            <ul>
+                <li>Základná škola Mateja Lechkého </li>
+                <li>Gymnázium Alejová 1, Košice (zatiaľ nedokončené)</li>
+            </ul>
+        </section>
+
+        <section id="jazyky">
+            <h2>Jazykové znalosti</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Jazyk</th>
+                        <th>Úroveň</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Anglický</td>
+                        <td>B2</td>
+                    </tr>
+                    <tr>
+                        <td>Nemecký</td>
+                        <td>A2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+        <section id="skusenosti">
+            <h2>Skúsenosti</h2>
+            <p>Brigády</p>
+            <ul>
+                <li>sklad GymBeam</li>
+                <li>sklad Metro Cash & Carry</li>
+            </ul>
+        </section>
+
+        <section id="zaujmy">
+            <h2>Záujmy</h2>
+            <p>Medzi moje záľuby patrí:</p>
+            <ul>
+                <li>Šport
+                    <ul>
+                        <li>Bedminton</li>
+                        <li>Lyžovanie</li>
+                        <li>Bicyklovanie</li>
+                    </ul>
+                </li>
+                <li>Videohry</li> 
+                <li>Hudba</li>
+            </ul>
+        </section>
+
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <table>
+                <tr>
+                    <td class="kontakt-udaj">Email:</td>
+                    <td>d.andras@galeje.sk</td>
+                </tr>
+                <tr>
+                    <td class="kontakt-udaj">Telefón:</td>
+                    <td>+421 903 022 142</td>
+                </tr>
+                <tr>
+                    <td class="kontakt-udaj">Adresa:</td>
+                    <td>Mliečna, Košice</td>
+                </tr>
+            </table>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Dominik András</p>
+    </footer>
+
+</body>
+
+</html>
